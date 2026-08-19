@@ -9,10 +9,13 @@ datasource db {
 }
 
 model product {
-  id      Int     @id @default(autoincrement())
-  name    String  @db.VarChar(100)
-  price   Decimal @db.Decimal(10, 0)
-  picture String  @db.VarChar(150)
+  id          Int     @id @default(autoincrement())
+  name        String? @db.VarChar(255)
+  description String? @db.Text
+  price       Float?
+  categoryId  Int?    @map("category_id")
+
+  @@map("products")
 }
 
 model User {
