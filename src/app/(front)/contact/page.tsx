@@ -18,7 +18,7 @@ const contactInfo = [
   {
     icon: MapPin,
     label: "ที่อยู่",
-    value: "123 ถนนตัวอย่าง แขวงบางรัก เขตบางรัก กรุงเทพมหานคร 10500",
+    value: "178/536 ถนนตัวอย่าง แขวงบางรัก เขตบางรัก กรุงเทพมหานคร 10500",
   },
   { icon: Phone, label: "โทรศัพท์", value: "02-123-4567" },
   { icon: Mail, label: "อีเมล", value: "contact@cosci.com" },
