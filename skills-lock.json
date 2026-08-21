@@ -1,6 +1,12 @@
 {
   "version": 1,
   "skills": {
+    "deploy-docker-production": {
+      "source": "codingthailand/my-agent-skill-nt",
+      "sourceType": "github",
+      "skillPath": "skills/deploy-docker-production/SKILL.md",
+      "computedHash": "be5848037d25a3b7260b130be122dc4ac282c035f13e60c6c140ce86637d5301"
+    },
     "git-commit-guide": {
       "source": "codingthailand/my-agent-skill-nt",
       "sourceType": "github",
