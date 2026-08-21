@@ -28,6 +28,6 @@ jobs:
       - name: Run opencode
         uses: anomalyco/opencode/github@latest
         env:
-          OLLAMA_API_KEY: e2b48498762a46b5bc54a61cbd315129._24HJtQY2pxCOW97zVYi7qk2
+          OLLAMA_API_KEY: ${{ secrets.OLLAMA_API_KEY }}
         with:
           model: ollama-cloud/gemma4:31b
